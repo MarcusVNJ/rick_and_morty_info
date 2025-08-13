@@ -1,0 +1,44 @@
+name: rick_and_morty_info
+description: "Este projeto se trata de um desafio tecnico para uma determinada empresa. O projeto tem como objetivo consumir dados de uma api que se trata do universo do rick and morty. Como objetivo pricipal é a apresentação de dados relacionados a personagens deste universo."
+
+version: 1.0.0+1
+
+environment:
+  sdk: 3.8.1
+
+dependencies:
+  flutter:
+    sdk: flutter
+  dio: 5.9.0
+  get_it: 8.2.0
+  dartz: 0.10.1
+  equatable: 2.0.7
+  signals_flutter: 6.0.2
+  auto_size_text: 3.0.0
+  skeletonizer: 2.1.0+1
+  go_router: 16.1.0
+  yaml: 3.1.3
+  flutter_svg: 2.2.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: 6.0.0
+
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/config/settings.yaml
+    - assets/images/rick_and_morty.svg
+
+  fonts:
+    - family: PublicSans
+      fonts:
+        - asset: assets/fonts/PublicSans-Regular.ttf
+        - asset: assets/fonts/PublicSans-Bold.ttf
+        - asset: assets/fonts/PublicSans-Italic.ttf
+        - asset: assets/fonts/PublicSans-SemiBold.ttf
+        - asset: assets/fonts/PublicSans-Light.ttf
+          weight: 800

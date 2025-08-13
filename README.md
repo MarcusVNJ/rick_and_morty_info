@@ -35,3 +35,6 @@ Para executar este projeto em seu ambiente de desenvolvimento ou gerar um APK, s
     Você pode gerar ou apk ou executalo via IDE.  
     Para gerar um arquivo APK, execute o seguinte comando na raiz do projeto:  
     bash flutter build apk --release
+
+### Demonstração Rápida
+[![Demonstração do App Rick and Morty Info](assets/images/rick_and_morty.svg)](https://drive.google.com/file/d/1_ZznhCLYeY3vYlYI07AxiqMtI0uPkdfm/view?usp=sharing)
